@@ -9,3 +9,12 @@ def factorielle(n):
 
 nb = int(input("Entrez le premier numéro : "))
 print(factorielle(nb))
+
+
+#Nada
+
+def fact(n):
+  if n<=1:
+    return 1 
+  else:
+  return n*fact(n-1)
