@@ -1,1 +1,11 @@
-#Création fonction carré
+#Création fonction factorielle
+
+#fonction de Hien
+def factorielle(n):
+  fact=1
+  for i in range(1,n+1):
+    fact*=i
+  return fact
+
+nb = int(input("Entrez le premier numéro : "))
+print(factorielle(nb))
